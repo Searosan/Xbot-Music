@@ -238,7 +238,9 @@ home_text_pm = f"""Hello
 ┣• kala Dag Video. /video search bot 
 ┣• Ka baadh Youtube Linkiga khadka dhexda.
 ┗━━━━━━━━━━━━━━
-[🇸🇴]({BOT_IMG}) Soo hel dhammaan amarkayga adigoo gujinaya batoonka Caawinta! Ee» /help «"""
+💙 Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/ribajosmani)
+😎Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) .....
+[🇸🇴](https://telegra.ph/file/ca230a69e939adcd3065f.jpg) Soo hel dhammaan amarkayga adigoo gujinaya batoonka Caawinta! Ee» /help «"""
 
 
 @app.on_message(filters.command("help") & filters.private)
