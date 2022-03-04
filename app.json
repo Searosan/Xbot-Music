@@ -1,7 +1,7 @@
 {
-  "name": "Xbot-Music",
+  "name": "Mosia Mk Robot",
   "description": "A Telegram Music Bot with proper functions written in Python with Pyrogram and Py-Tgcalls.",
-  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+  "logo": "https://telegra.ph/file/ca230a69e939adcd3065f.jpg",
   "keywords": [
   "python3",
   "telegram",
@@ -45,32 +45,32 @@
     },
     "BOT_IMG": {
       "description": "Photo for your bot",
-      "value": "https://telegra.ph/file/d3f62131358c475dda9ae.jpg",
+      "value": "https://telegra.ph/file/ca230a69e939adcd3065f.jpg",
       "required": true
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "",
+      "value": "Mosia Mk Robot",
       "required": true
     },
     "SUPPORT_CHANNEL": {
       "description": "Support Channel Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "https://t.me/BotMusicUpdates",
+      "value": "https://t.me/teamosmani",
       "required": false
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "https://t.me/BotMusicChat",
+      "value": "https://t.me/osmanigroupbot",
       "required": false
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "1008271006",
       "required": true
     },
     "OWNER_USERMAME": {
       "description": "Your username whitout @.",
-      "value": "",
+      "value": "ribajosmani",
       "required": true
     },
     "STRING_SESSION1": {
@@ -80,7 +80,7 @@
     },
     "OWNER_NAME": {
       "description": "Your name",
-      "value": "",
+      "value": "Osmani",
       "required": true
     },
     "HEROKU_API_KEY": {
@@ -95,17 +95,17 @@
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-      "value": "",
+      "value": "-1001150107625",
       "required": true
     },
     "SUDO_USERS": {
       "description": "The user id(s) of user(s) whom you would like to add as a SUDO. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "1008271006",
       "required": true
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/NotReallyShikhar/YukkiMusicBot",
+      "value": "https://github.com/OsmaniPro",
       "required": true
     },
     "UPSTREAM_BRANCH": {
