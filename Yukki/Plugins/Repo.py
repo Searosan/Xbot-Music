@@ -52,16 +52,16 @@ async def repo(client, message):
     uptime = await _human_time_duration(int(uptime_sec))
     await client.send_photo(message.chat.id,
         photo=f"{BOT_IMG}",
-        caption=f"""**⚡ Holla {message.from_user.mention()}.**
+        caption=f"""**👋 Salama {message.from_user.mention()}.**
 **Klick button below for {bn} repository 💙**
-**Spesial credits for [Team Yukki💚](https://github.com/NotReallyShikhar/YukkiMusicBot)**
-**Don't forget to subscribe my [channel 💛]({SUPPORT_CHANNEL})**
+**Spesial credits for [Team Yukki💚](https://github.com/OsmaniPro)**
+**Don't forget to subscribe my [channel 💛](https://t.me/teamosmani)**
 **Thanks For Using Me ❤️**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url=f"https://github.com/fjgaming212/Xbot-Music"
+                        "Repo", url=f"https://github.com/Searosan/Osmani_vc_bot"
                     ),
                     InlineKeyboardButton(
                         "Deploy", url=f"https://telegram.dog/XTZ_HerokuBot?start=ZmpnYW1pbmcyMTIvWEJvdC1NdXNpYyBtYXN0ZXI"
