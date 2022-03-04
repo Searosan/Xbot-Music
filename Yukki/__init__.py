@@ -105,7 +105,7 @@ async def initiate_bot():
     )
     console.print(header)
     with console.status(
-        "[magenta] Mosia Music Bot Booting...",
+        "[magenta] Yukki Music Bot Booting...",
     ) as status:
         console.print("┌ [red]Booting Up The Clients...\n")
         await app.start()
@@ -130,12 +130,12 @@ async def initiate_bot():
         if STRING5 != "None":
             await ASS_CLI_5.start()
             random_assistant.append(5)
-            console.print("├ [yellow]Mosia Mk Assistant Client 5")
-        console.print("└ [green]Assistant Clients Mosia Mk Successfully!")
+            console.print("├ [yellow]Booted Assistant Client 5")
+        console.print("└ [green]Assistant Clients Booted Successfully!")
         if LOG_SESSION != "None":
-            console.print("\n┌ [red]Mosia Mk Logger Client")
+            console.print("\n┌ [red]Booting Logger Client")
             await LOG_CLIENT.start()
-            console.print("└ [green]Logger Client Mosia Successfully!")
+            console.print("└ [green]Logger Client Booted Successfully!")
         if "raw_files" not in listdir():
             mkdir("raw_files")
         if "downloads" not in listdir():
