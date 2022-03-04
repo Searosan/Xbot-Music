@@ -57,13 +57,13 @@ async def alive(client, message):
     uptime = await _human_time_duration(int(uptime_sec))
     await client.send_photo(message.chat.id,
         photo=f"{BOT_IMG}",
-        caption=f"""**⚡ Holla {message.from_user.mention()}, I'm {bn}.**
+        caption=f"""**⚡ Salama {message.from_user.mention()}, I'm {bn}.**
 ⚡ **I'm Working Properly**
 ⚡ **Bot : 6.0 LATEST**
-⚡ **My Master : [{saya}](t.me/{OWNER_USERNAME})**
+⚡ **My Master : [{Osmani}](t.me/{OWNER_USERNAME})**
 ⚡ **Uptime : `{uptime}`**
 ⚡ **Pyrogram Version : `{pyrover}`**
-⚡ **Please join my channel**
+⚡ **Please join my channel [Team](t.me/Teamosmani) **
 **Thanks For Using Me ❤️**""",
         reply_markup=InlineKeyboardMarkup(
             [
