@@ -230,15 +230,15 @@ async def initiate_bot():
 
 
 home_text_pm = f"""Hello
-{BOT_NAME} can to stream any media on groups through the Telegram video call feature! example :
+{BOT_NAME} ᴀxᴀᴀɴ ᴀʜᴀʏ ᴍᴏsɪᴀ ᴍᴋ ᴡᴀxᴀᴀ ʟᴇᴇɢᴀ ᴅʜᴀx ʜᴇʟᴀᴀ ᴍᴀᴀ ᴀᴀᴅ ɪɢᴀ ᴅᴀᴀʀᴀɴ ᴋᴀʀᴛᴀᴀ ᴍᴀǫᴀʟ ɪʏᴏ ᴍᴜᴜǫᴀᴀʟ ɪɢᴜ ᴄᴀsᴜᴜᴍ ǫᴏʟᴋᴀᴀɢᴀ :
 ┏━━━━━━━━━━━━━━
-┣• Play music.
-┣• Play video.
-┣• download song.
-┣• download video.
-┣• Search Youtube Link with inline.
+┣• Ka Daaro Maqal. /play Name Song
+┣• Ka Daaro Muuqaal. /play Name Video
+┣• kala Dag Maqal. /song search bot 
+┣• kala Dag Video. /video search bot 
+┣• Ka baadh Youtube Linkiga khadka dhexda.
 ┗━━━━━━━━━━━━━━
-[💡]({BOT_IMG}) Find all of my command by clicking on the » Help « button!"""
+[🇸🇴]({BOT_IMG}) Soo hel dhammaan amarkayga adigoo gujinaya batoonka Caawinta! Ee» /help «"""
 
 
 @app.on_message(filters.command("help") & filters.private)
@@ -378,7 +378,7 @@ async def help_parser(name, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
-        """Hello {first_name},
+        """sᴀʟᴀᴍᴀ {first_name},
 
 Below are all bot commands, please press one to find out what commands are in it.
 """.format(
@@ -418,10 +418,10 @@ Below are all bot commands, please press one to find out what commands are in it
             [
                 [
                     InlineKeyboardButton(
-                        text="↪️ Back", callback_data="help_back"
+                        text="⬅️ Back", callback_data="help_back"
                     ),
                     InlineKeyboardButton(
-                        text="🔄 Close", callback_data="close"
+                        text="🗑️ Close", callback_data="close"
                     ),
                 ],
             ]
