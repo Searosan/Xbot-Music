@@ -240,7 +240,7 @@ home_text_pm = f"""Hello
 ┗━━━━━━━━━━━━━━
 💙 Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/ribajosmani)
 😎Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/osmanibots) .....
-[🇸🇴](https://telegra.ph/file/ca230a69e939adcd3065f.jpg) Soo hel dhammaan amarkayga adigoo gujinaya batoonka Caawinta! Ee» /help «"""
+[❓](https://telegra.ph/file/ca230a69e939adcd3065f.jpg) Soo hel dhammaan amarkayga adigoo gujinaya batoonka Caawinta! Ee» /help «"""
 
 
 @app.on_message(filters.command("help") & filters.private)
