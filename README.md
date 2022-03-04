@@ -3,14 +3,14 @@
     A Telegram Music+video Bot written in Python using Pyrogram and Py-Tgcalls 
 </h4>
 <p align="center">
-    <a href="https://t.me/Boot_Musicbot"> XBOT-MUSIC </a> •
-    <a href="https://t.me/BotMusicUpdates"> Xbot Updates </a> 
+    <a href="https://t.me/osmanigroupbot"> Support Osmani </a> •
+    <a href="https://t.me/teamosmani"> Team Osmani </a> 
 </p>
     
 # Xbot Music Bot
 A Powerful Telegram Music+Video Bot by which you can stream songs, videos and even live streams in your group calls via various sources. It comes with  user friendly and easy to use yet elegant features.
 
-![XBOT-MUSIC LOGO](https://telegra.ph/file/d3f62131358c475dda9ae.jpg)
+![XBOT-MUSIC LOGO](https://telegra.ph/file/719c7766b1dbfe2666d39.jpg)
 ## Deployment
 
 > Click on buttons to expand!
@@ -50,7 +50,7 @@ A Powerful Telegram Music+Video Bot by which you can stream songs, videos and ev
 > Those two vars are not Mandatory! You can leave them blank too. 
     
 <h4>Click the button below to deploy Yukki on Heroku!</h4>    
-<p><a href="https://heroku.com/deploy?template=https://github.com/fjgaming212/XBOT-MUSIC"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/Searosab/mosia_vc_bot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
     
 </details>
 
